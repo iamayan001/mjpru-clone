@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+
+        background-image: url(fitnesss.jpg.jpg);
+
+        background-repeat: no-repeat;
+        /* border: 2px solid red; */
+        height: 638px;
+        background-size: 1200px;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+
+    }
+
+    .mid {
+        /* border: 2px solid rgb(46, 204, 6);  */
+        display: block;
+        width: 50%;
+        margin: 12px auto;
+        top: 18px;
+    }
+
+    .right {
+        /* border: 2px solid rgb(10, 65, 138);   */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 14px;
+        border-radius: 11px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+        margin: 14px;
+        padding: 0px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        color: rgb(94, 5, 86);
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 60px;
+        padding-left: 21px;
+    }
+
+    .left div {
+        text-align: center;
+        color: white;
+        font-size: 17px;
+    }
+
+    .button {
+        margin-top: 11px;
+        font-size: 14px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border-radius: 11px;
+        padding: 6px;
+    }
+
+    .button:hover {
+        background-color: rgb(208, 182, 231);
+    }
+
+    .container {
+        border: 3px solid rgb(255, 255, 255);
+        margin: 106px 80px;
+        color: white;
+        padding: 35px;
+        border-radius: 15px;
+        width: 455px;
+        font-size: 12px;
+    }
+
+    .formgroup input {
+        margin: 4px;
+        text-align: center;
+        display: block;
+        width: 274px;
+        padding-left: 25px;
+        padding: 12px;
+        /* border: 3px solid black; */
+        border-radius: 6px;
+        margin-left: 45px;
+        font-size: 15px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        display: block;
+        width: 145px;
+        margin: 20px auto;
+    }
+    .active:hover{
+        background-color: rgb(219, 216, 223);
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://png.pngtree.com/templates/sm/20180630/sm_5b37b43581a48.jpg" alt="">
+            <div>Mayank fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">Fitness</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="button">call us now</button>
+            <button class="button">email us</button>
+        </div>
+      
+        <div class="container">
+            <h1>Join the best gym of Shahjahanpur Now...</h1>
+           
+            <form action="noaction.php">
+                <ul type="circle">
+                    <div class="formgroup">
+                        <li> <input type="text" name="" placeholder="Enter your name"></li>
+                    </div>
+                    <div class="formgroup">
+                        <li><input type="text" name="" placeholder="Enter your Age"></li>
+                    </div>
+                    <div class="formgroup">
+                        <li><input type="text" name="" placeholder="Enter your Gender"></li>
+                    </div>
+                    <div class="formgroup">
+                        <li><input type="text" name="" placeholder="Enter your Locality"></li>
+                    </div>
+                </ul>
+                <button class="button">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+    </header>
+    
+</body>
+
+</html>
